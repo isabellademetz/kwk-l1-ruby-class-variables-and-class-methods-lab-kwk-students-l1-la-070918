@@ -29,7 +29,7 @@ end
  def Song.genre_count
    if 
 
- attr_accessor :name, :artist, :genre
+ 
 
 
  end
