@@ -21,6 +21,12 @@ end
  def Song.artists
    return @@artists
  end
+ 
+ def initialize
+   @@artists << Song.artists  
+ end
+ 
+ def Song.genre_count
 
  attr_accessor :name, :artist, :genre
 
