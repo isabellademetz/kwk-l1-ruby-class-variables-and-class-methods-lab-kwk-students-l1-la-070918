@@ -7,6 +7,9 @@ attr_accessor :genre
 def initialize
   @@count += 1
 end
+def count
+  @@count
+end
 
 Song.count
 return count
@@ -26,4 +29,5 @@ Song.genre_count
 Song.artist_count
 end
 end
+Song.count
   
