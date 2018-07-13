@@ -1,5 +1,5 @@
 class Song
-ninety_nine_problems_nine_problems = Song.new( "99 Problems", "Jay-z", "rap")
+ninety_nine_problems_nine_problems = Song.new("99 Problems", "Jay-z", "rap")
 @@ninety_nine_problems.artist
 @@ninety_nine_problems.genre
 @@count = 0
