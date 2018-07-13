@@ -27,10 +27,8 @@ end
    @@artists << Song.artists  
  end
  
- def Song.genre_count
-   if 
-
- 
+ def self.count
+ @@count
 
 
  end
