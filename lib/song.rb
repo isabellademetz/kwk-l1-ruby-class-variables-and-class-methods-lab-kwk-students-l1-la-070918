@@ -20,4 +20,6 @@ Song.artists
 end
 
 Song.genre_count
+
+Song.artist_count
   
